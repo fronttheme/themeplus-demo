@@ -1,0 +1,537 @@
+# Copyright (C) 2026 FrontTheme
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemePlus Demo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/themeplus-demo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-12T16:53:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: themeplus-demo\n"
+
+#. Theme Name of the theme
+#: style.css
+#: footer.php:29
+#: inc/themeplus-config.php:27
+msgid "ThemePlus Demo"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.fronttheme.com/products/themeplus/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Demonstration and test-harness theme for the ThemePlus options framework. Registers every field type, every conditional-logic pattern, and renders all saved values on the front end for verification. Not intended for production use."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "FrontTheme"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.fronttheme.com/"
+msgstr ""
+
+#: footer.php:14
+msgid "FrontTheme profiles"
+msgstr ""
+
+#: footer.php:15
+msgid "Website"
+msgstr ""
+
+#: footer.php:30
+msgid "Built with ThemePlus"
+msgstr ""
+
+#: front-page.php:13
+msgid "Welcome"
+msgstr ""
+
+#: front-page.php:14
+msgid "Text Fields"
+msgstr ""
+
+#: front-page.php:15
+msgid "Number Fields"
+msgstr ""
+
+#: front-page.php:16
+msgid "Choice Fields"
+msgstr ""
+
+#: front-page.php:17
+msgid "Toggle Fields"
+msgstr ""
+
+#: front-page.php:18
+msgid "Color Fields"
+msgstr ""
+
+#: front-page.php:19
+msgid "Media Fields"
+msgstr ""
+
+#: front-page.php:20
+msgid "Layout & Typography"
+msgstr ""
+
+#: front-page.php:21
+msgid "Structure & Content"
+msgstr ""
+
+#: front-page.php:22
+msgid "Advanced Fields"
+msgstr ""
+
+#: front-page.php:23
+msgid "Conditional Lab"
+msgstr ""
+
+#: front-page.php:24
+msgid "All Values"
+msgstr ""
+
+#: front-page.php:31
+msgid "Field type demos"
+msgstr ""
+
+#. translators: %s: link to the admin options page.
+#: front-page.php:58
+#, php-format
+msgid "Edit in <a href=\"%s\">Demo Settings</a> &rarr; Save &rarr; refresh this page."
+msgstr ""
+
+#: front-page.php:65
+msgid "X-ray: show all values"
+msgstr ""
+
+#: functions.php:36
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:33
+msgid "Field Demo"
+msgstr ""
+
+#: header.php:36
+msgid "Demo links"
+msgstr ""
+
+#: header.php:37
+msgid "Toggle dark mode"
+msgstr ""
+
+#: header.php:42
+#: inc/themeplus-config.php:32
+msgid "Demo Settings"
+msgstr ""
+
+#: header.php:46
+msgid "Docs"
+msgstr ""
+
+#: header.php:50
+msgid "GitHub"
+msgstr ""
+
+#: inc/template-functions.php:225
+msgid "Saved value"
+msgstr ""
+
+#: inc/themeplus-config.php:33
+msgid "ThemePlus Demo — Theme Options"
+msgstr ""
+
+#: index.php:54
+msgid "No posts yet — add a few dummy posts to exercise the archive options."
+msgstr ""
+
+#: template-parts/demo/advanced.php:16
+msgid "Code Editor — Custom CSS"
+msgstr ""
+
+#: template-parts/demo/advanced.php:19
+msgid "Printed into wp_head right now — it is styling this very page."
+msgstr ""
+
+#: template-parts/demo/advanced.php:21
+msgid "Empty — add CSS in Demo Settings and it lands in wp_head."
+msgstr ""
+
+#: template-parts/demo/advanced.php:25
+msgid "Repeater — Feature List"
+msgstr ""
+
+#: template-parts/demo/advanced.php:38
+msgid "Disabled rows are skipped — each row is an array keyed by its sub-field IDs."
+msgstr ""
+
+#: template-parts/demo/advanced.php:40
+msgid "No rows yet — add a few features in Demo Settings to render this list."
+msgstr ""
+
+#: template-parts/demo/advanced.php:44
+msgid "Link — CTA"
+msgstr ""
+
+#: template-parts/demo/advanced.php:50
+msgid "Same value powers the hero CTA at the top."
+msgstr ""
+
+#: template-parts/demo/advanced.php:52
+msgid "No URL set."
+msgstr ""
+
+#: template-parts/demo/advanced.php:56
+msgid "Group — SEO"
+msgstr ""
+
+#: template-parts/demo/advanced.php:58
+msgid "Meta Title"
+msgstr ""
+
+#: template-parts/demo/advanced.php:60
+msgid "Meta Description"
+msgstr ""
+
+#: template-parts/demo/advanced.php:62
+msgid "Discourage Indexing"
+msgstr ""
+
+#: template-parts/demo/advanced.php:63
+msgid "Yes"
+msgstr ""
+
+#: template-parts/demo/advanced.php:63
+msgid "No"
+msgstr ""
+
+#: template-parts/demo/all-values.php:18
+msgid "Saved Options — Value & Type Verification"
+msgstr ""
+
+#. translators: %d: number of saved options.
+#: template-parts/demo/all-values.php:23
+#, php-format
+msgid "%d options in the database"
+msgstr ""
+
+#: template-parts/demo/all-values.php:33
+msgid "No options saved yet. Open Demo Settings in wp-admin, hit Save, then reload this page."
+msgstr ""
+
+#: template-parts/demo/all-values.php:40
+msgid "Option Key"
+msgstr ""
+
+#: template-parts/demo/all-values.php:41
+msgid "Type"
+msgstr ""
+
+#: template-parts/demo/all-values.php:42
+msgid "Value"
+msgstr ""
+
+#: template-parts/demo/choice.php:17
+msgid "Select — Header Style"
+msgstr ""
+
+#: template-parts/demo/choice.php:21
+msgid "Button Set — Sidebar Position"
+msgstr ""
+
+#: template-parts/demo/choice.php:24
+#: template-parts/demo/choice.php:28
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/demo/choice.php:26
+msgid "Content"
+msgstr ""
+
+#: template-parts/demo/choice.php:33
+msgid "Radio — Archive Layout"
+msgstr ""
+
+#: template-parts/demo/choice.php:37
+msgid "See it applied on the real blog archive →"
+msgstr ""
+
+#: template-parts/demo/choice.php:42
+msgid "Checkbox — Post Meta Items"
+msgstr ""
+
+#: template-parts/demo/choice.php:50
+msgid "Returns an array — checked items render on blog cards."
+msgstr ""
+
+#: template-parts/demo/choice.php:53
+msgid "Select Image — Blog Template"
+msgstr ""
+
+#: template-parts/demo/color.php:14
+msgid "Color Picker — Primary Color"
+msgstr ""
+
+#: template-parts/demo/color.php:19
+msgid "Applied site-wide as --tpd-primary: link hovers, active tab, accents — including this card set."
+msgstr ""
+
+#: template-parts/demo/color.php:20
+msgid "A button painted with your primary color"
+msgstr ""
+
+#: template-parts/demo/color.php:23
+msgid "Gradient Picker — Hero Gradient"
+msgstr ""
+
+#: template-parts/demo/color.php:25
+msgid "Returns a complete CSS gradient string — the hero at the top of this page uses it directly."
+msgstr ""
+
+#: template-parts/demo/conditional.php:16
+msgid "Master Toggle"
+msgstr ""
+
+#: template-parts/demo/conditional.php:17
+msgid "Mode"
+msgstr ""
+
+#: template-parts/demo/conditional.php:18
+msgid "Quantity"
+msgstr ""
+
+#: template-parts/demo/conditional.php:19
+msgid "Keywords"
+msgstr ""
+
+#: template-parts/demo/conditional.php:23
+msgid "Current CONTROL values"
+msgstr ""
+
+#. translators: %s: admin URL of the options panel.
+#: template-parts/demo/conditional.php:48
+#, php-format
+msgid "The show/hide magic is live in the admin: open <a href=\"%s\">Demo Settings → Conditional Lab</a> and flip the CONTROL fields — 17 dependent fields appear and disappear instantly, covering all 10 operators, AND/OR relations, array values, and dot-notation sub-key targeting."
+msgstr ""
+
+#: template-parts/demo/conditional.php:52
+msgid "The show/hide magic is live in the admin Conditional Lab — 17 dependent fields react instantly to the CONTROL fields, covering all 10 operators, AND/OR relations, array values, and dot-notation targeting."
+msgstr ""
+
+#: template-parts/demo/layout.php:19
+msgid "Typography — Body"
+msgstr ""
+
+#: template-parts/demo/layout.php:21
+msgid "The quick brown fox jumps over the lazy dog — 0123456789. This paragraph (and the whole page) is set in your chosen family, size, and weight."
+msgstr ""
+
+#: template-parts/demo/layout.php:35
+msgid "Dimensions — Logo Box"
+msgstr ""
+
+#: template-parts/demo/layout.php:44
+msgid "Spacing — Section Padding"
+msgstr ""
+
+#: template-parts/demo/layout.php:64
+msgid "Border — Card"
+msgstr ""
+
+#: template-parts/demo/media.php:44
+msgid "Image — Site Logo"
+msgstr ""
+
+#: template-parts/demo/media.php:46
+msgid "Site logo"
+msgstr ""
+
+#: template-parts/demo/media.php:48
+msgid "No logo selected yet — pick one in Demo Settings → Media Fields."
+msgstr ""
+
+#: template-parts/demo/media.php:52
+msgid "Gallery — Showcase"
+msgstr ""
+
+#: template-parts/demo/media.php:64
+msgid "Empty gallery — add a few images to see the grid."
+msgstr ""
+
+#: template-parts/demo/media.php:68
+msgid "Icon — Brand Icon"
+msgstr ""
+
+#: template-parts/demo/media.php:73
+msgid "Background — Page Background"
+msgstr ""
+
+#: template-parts/demo/media.php:77
+msgid "Panel painted from the structured value — switch the mode between color, image, and gradient."
+msgstr ""
+
+#: template-parts/demo/number.php:13
+msgid "Design is intelligence made visible, and every option in this panel exists to make a theme feel intentionally crafted rather than accidentally assembled, from the first pixel of the header to the final line of the footer note."
+msgstr ""
+
+#: template-parts/demo/number.php:16
+msgid "Number — Posts Per Row"
+msgstr ""
+
+#: template-parts/demo/number.php:22
+msgid "Also drives the real blog archive grid."
+msgstr ""
+
+#: template-parts/demo/number.php:25
+msgid "Spinner — Excerpt Length"
+msgstr ""
+
+#. translators: %d: word count.
+#: template-parts/demo/number.php:33
+#, php-format
+msgid "Specimen paragraph trimmed to %d words."
+msgstr ""
+
+#: template-parts/demo/number.php:40
+msgid "Slider — Container Width"
+msgstr ""
+
+#: template-parts/demo/number.php:45
+msgid "Applied for real: this whole page is constrained to that width via a CSS custom property."
+msgstr ""
+
+#: template-parts/demo/structure.php:20
+msgid "Shortcode — Footer Shortcode"
+msgstr ""
+
+#: template-parts/demo/structure.php:26
+msgid "Stored as text, executed with do_shortcode() — also live in the site footer."
+msgstr ""
+
+#: template-parts/demo/structure.php:29
+msgid "Date Picker — Launch Date"
+msgstr ""
+
+#: template-parts/demo/structure.php:34
+#: template-parts/demo/structure.php:45
+msgid "No date selected."
+msgstr ""
+
+#: template-parts/demo/structure.php:37
+msgid "Raw stored value below; rendered above with the site date format via date_i18n()."
+msgstr ""
+
+#: template-parts/demo/structure.php:40
+msgid "Date Picker — With Time (showTime)"
+msgstr ""
+
+#: template-parts/demo/structure.php:48
+msgid "showTime stores full ISO with time — rendered with the site date + time formats."
+msgstr ""
+
+#: template-parts/demo/structure.php:51
+msgid "Social Media — Profiles"
+msgstr ""
+
+#: template-parts/demo/structure.php:67
+msgid "No profiles yet — add a few rows in Demo Settings."
+msgstr ""
+
+#: template-parts/demo/structure.php:72
+msgid "The info, section divider, and raw HTML fields are admin-panel UI by design — they store no values. Open Demo Settings → Structure & Content to see them."
+msgstr ""
+
+#: template-parts/demo/text.php:11
+msgid "Text — Hero Tagline"
+msgstr ""
+
+#: template-parts/demo/text.php:15
+msgid "Also rendered live in the hero above."
+msgstr ""
+
+#: template-parts/demo/text.php:18
+msgid "Textarea — Footer Note"
+msgstr ""
+
+#: template-parts/demo/text.php:22
+msgid "Line breaks preserved — also rendered in the site footer."
+msgstr ""
+
+#: template-parts/demo/toggle.php:14
+msgid "Toggle — Preloader"
+msgstr ""
+
+#: template-parts/demo/toggle.php:16
+#: template-parts/demo/toggle.php:29
+msgid "ON"
+msgstr ""
+
+#: template-parts/demo/toggle.php:16
+#: template-parts/demo/toggle.php:29
+msgid "OFF"
+msgstr ""
+
+#: template-parts/demo/toggle.php:21
+msgid "You saw it: the spinner that covered this page while it loaded."
+msgstr ""
+
+#: template-parts/demo/toggle.php:22
+msgid "Turn it on in Demo Settings, save, refresh — the page loads behind a spinner."
+msgstr ""
+
+#: template-parts/demo/toggle.php:27
+msgid "Switch — Back-to-Top Button"
+msgstr ""
+
+#: template-parts/demo/toggle.php:34
+msgid "A real button is fixed at the bottom-right corner of this page right now."
+msgstr ""
+
+#: template-parts/demo/toggle.php:35
+msgid "When enabled, a real button appears fixed at the bottom-right of every page."
+msgstr ""
+
+#: template-parts/demo/toggle.php:41
+msgid "Back to top"
+msgstr ""
+
+#: template-parts/demo/welcome.php:26
+msgid "Options, verified end to end."
+msgstr ""
+
+#: template-parts/demo/welcome.php:30
+msgid "Every pixel of this page is driven by ThemePlus options — including this gradient, that headline, and the icon above it."
+msgstr ""
+
+#: template-parts/demo/welcome.php:39
+msgid "Learn more"
+msgstr ""
+
+#: template-parts/demo/welcome.php:47
+msgid "Pick a section from the sidebar — the labels match the admin panel exactly."
+msgstr ""
+
+#. translators: %s: admin URL.
+#: template-parts/demo/welcome.php:55
+#, php-format
+msgid "Change anything in <a href=\"%s\">Demo Settings</a> and hit Save."
+msgstr ""
+
+#: template-parts/demo/welcome.php:63
+msgid "Refresh this page — watch the matching panel (and often the whole page) change."
+msgstr ""
+
+#: template-parts/demo/welcome.php:69
+msgid "Start with the sidebar — every field type ThemePlus ships is rendered live in there."
+msgstr ""
