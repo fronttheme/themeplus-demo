@@ -4,6 +4,14 @@ A demonstration and test-harness WordPress theme for **[ThemePlus](https://githu
 
 Every field type ThemePlus ships is registered, configured, and rendered live on the front end. Change an option in the admin panel, save, refresh — and watch the matching demo panel (and often the whole page) change.
 
+## Try It Live
+
+No installation needed — launch a temporary WordPress instance with ThemePlus and this demo theme pre-installed, running entirely in your browser:
+
+**[▶ Try ThemePlus Demo Live](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/fronttheme/themeplus-demo/main/.wordpress-org/blueprints/blueprint.json)**
+
+Powered by [WordPress Playground](https://playground.wordpress.net/) — your changes aren't saved and the instance resets when you close the tab.
+
 ## What this theme does
 
 - **Registers all 30 field types** with verified value shapes, sensible defaults, and the config arguments each field supports — making `inc/themeplus-sections.php` a copy-ready reference implementation.
