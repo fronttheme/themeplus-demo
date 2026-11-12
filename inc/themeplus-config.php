@@ -3,8 +3,8 @@
  * ThemePlus framework configuration (white-label).
  *
  * This is the reference implementation of themeplus_framework_config().
- * Everything the panel shows — menu, titles, option key — belongs to the
- * THEME, not to ThemePlus. End users never see the word "ThemePlus".
+ * The admin menu, browser title and option key belong to the THEME.
+ * The panel itself keeps the ThemePlus brand.
  *
  * @package ThemePlus_Demo
  */
@@ -38,7 +38,7 @@ add_action(
         // Features.
         'admin_bar'     => true,
         'show_search'   => true,
-        'dev_mode'      => defined('THEMEPLUS_DEV') && THEMEPLUS_DEV,
+        'dev_mode'      => true, // Demo only: shows the Developer Panel in Playground. Leave it out of production themes.
 
         // i18n — the strings registered by THIS theme use the theme's domain.
         'text_domain'   => 'themeplus-demo',

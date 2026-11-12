@@ -17,7 +17,8 @@ Powered by [WordPress Playground](https://playground.wordpress.net/) — your ch
 - **Registers all 30 field types** with verified value shapes, sensible defaults, and the config arguments each field supports — making `inc/themeplus-sections.php` a copy-ready reference implementation.
 - **Conditional Lab**: a dedicated section exercising every conditional-logic pattern — all 10 operators (`==`, `!=`, `>`, `<`, `>=`, `<=`, `contains`, `!contains`, `empty`, `!empty`), AND/OR relations, array values, and dot-notation sub-key targeting (`body_typography.font-family`). Flip the CONTROL fields and watch 17 dependent fields react live.
 - **Admin-mirror demo frontend**: a sidebar of demo panels matching the admin sections 1:1. Each field is rendered as applied UI (colors painted, typography applied, repeater rows listed, gradients drawn) with a collapsible **Saved value** drawer showing the raw value and its PHP type — plus an **X-ray** toggle that opens every drawer at once.
-- **White-label reference config**: `themeplus_framework_config()` set up the way a real theme should — the end user never sees the word "ThemePlus".
+- **White-label reference config**: `themeplus_framework_config()` set up the way a real theme should — the admin menu, browser title and option key belong to the theme.
+- **Developer Panel**: turned on with `'dev_mode' => true` so Playground visitors can browse every field's metadata, value and code snippets. Leave this setting out of production themes.
 - **Extension example**: a subsection attached via `themeplus_add_subsection()` from a separate hook — the pattern child themes and plugins use to extend a parent theme's panel.
 - **Light/dark theming** matching the ThemePlus admin palette, with a header toggle.
 
@@ -65,7 +66,7 @@ No build step, no npm — by design. ThemePlus integration requires zero tooling
 ## Conventions demonstrated
 
 - Section/subsection `icon` takes the FontAwesome **name only** (`'pen'`); the icon **field** stores the **full class** (`'fa-brands fa-github'`).
-- `select_image` options are an array of `value` / `label` / `image` rows; `select`, `radio`, `button_set`, and `checkbox` take a `'key' => 'Label'` map.
+- `select_image` options are an array of `value` / `label` / `image` rows; `select`, `radio`, `button_set`, and `checkbox` take a `'key' => 'Label'` map. Text and numeric keys both work, keep their order, and come back as strings.
 - Prefixes: `tpd_` (PHP), `tpd-` (CSS/BEM), text domain `themeplus-demo`.
 
 ## Links
