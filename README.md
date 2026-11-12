@@ -24,7 +24,7 @@ Powered by [WordPress Playground](https://playground.wordpress.net/) — your ch
 ## Requirements
 
 - WordPress 6.8+
-- PHP 8.0+
+- PHP 8.2+
 - The [ThemePlus](https://github.com/fronttheme/themeplus) plugin, installed and activated
 
 The theme degrades gracefully when ThemePlus is inactive — every integration point is guarded with `function_exists()` checks (also the pattern your own theme should copy).

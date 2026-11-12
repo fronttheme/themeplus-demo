@@ -10,7 +10,8 @@
  * - Section/subsection 'icon'  => FontAwesome NAME only ('pen').
  * - Icon FIELD default         => FULL FontAwesome class ('fa-brands fa-github').
  * - select_image 'options'     => array of rows: value / label / image.
- * - select, radio, button_set, checkbox 'options' => 'key' => 'Label' map.
+ * - select, radio, button_set 'options' => 'key' => 'Label' map; text and numeric keys keep their order, values return as strings.
+ * - checkbox 'options'         => 'key' => 'Label' map.
  * - social_media value         => array of rows: platform / url.
  *
  * @package ThemePlus_Demo
@@ -123,6 +124,31 @@ add_action(
               'minimal'  => __('Minimal', $td),
             ],
             'default' => 'classic',
+          ],
+          [
+            'id'       => 'choice_footer_layout',
+            'type'     => 'select',
+            'title'    => __('Footer Layout', $td),
+            'subtitle' => __('Text and numeric keys together — options keep this order, and the value returns as a string.', $td),
+            'options'  => [
+              'classic' => __('Classic', $td),
+              'minimal' => __('Minimal', $td),
+              101       => __('Custom Footer #101', $td),
+              205       => __('Custom Footer #205', $td),
+            ],
+            'default'  => 'classic',
+          ],
+          [
+            'id'       => 'choice_grid_columns',
+            'type'     => 'button_set',
+            'title'    => __('Grid Columns', $td),
+            'subtitle' => __('Numeric keys with a numeric default — returns "2", "3" or "4".', $td),
+            'options'  => [
+              2 => __('2 Columns', $td),
+              3 => __('3 Columns', $td),
+              4 => __('4 Columns', $td),
+            ],
+            'default'  => 3,
           ],
           [
             'id'      => 'choice_sidebar_position',
@@ -492,6 +518,38 @@ add_action(
                 'type'    => 'toggle',
                 'title'   => __('Enabled', $td),
                 'default' => true,
+              ],
+              [
+                'id'      => 'feature_style',
+                'type'    => 'select',
+                'title'   => __('Card Style', $td),
+                'options' => [
+                  'flat'     => __('Flat', $td),
+                  'outlined' => __('Outlined', $td),
+                  'filled'   => __('Filled', $td),
+                ],
+                'default' => 'flat',
+              ],
+              [
+                'id'      => 'feature_width',
+                'type'    => 'button_set',
+                'title'   => __('Card Width', $td),
+                'options' => [
+                  1 => __('Full', $td),
+                  2 => __('Half', $td),
+                  3 => __('Third', $td),
+                ],
+                'default' => 1,
+              ],
+              [
+                'id'      => 'feature_align',
+                'type'    => 'radio',
+                'title'   => __('Text Align', $td),
+                'options' => [
+                  'left'   => __('Left', $td),
+                  'center' => __('Center', $td),
+                ],
+                'default' => 'left',
               ],
             ],
           ],
